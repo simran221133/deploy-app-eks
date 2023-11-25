@@ -19,4 +19,9 @@ eksctl create cluster --name test-app --region us-east-2 --nodegroup-name linux-
 kubectl get nodes
 kubectl get service (corresponding to the Load Balancer is the endpoint to reach the applications)
 
+7. clean up - eksctl delete cluster --name test-app
+
+8. Delete private ECR repo you create node-app
+
+9. Youtube link - https://youtu.be/9qSmFWwsxwA?si=qSpgqVmBVTLFkIgv
 
